@@ -26,6 +26,9 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/playground')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+    use('godlygeek/tabular')
+    use('preservim/vim-markdown')
+    use('github/copilot.vim')
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v1.x',
